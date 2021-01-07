@@ -18,7 +18,7 @@ div{
 }
 .movie-list-head {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
 }
 .movie-list-head > span {
   margin: 1em 2em;
@@ -26,11 +26,11 @@ div{
 }
 .movie{
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
 }
 .movie > span {
   margin: 0.5em 2em;
-  text-align: end;
+  text-align: start;
   width: 100%;
   
 }
