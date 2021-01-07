@@ -1,0 +1,36 @@
+.App {
+  width: 100%;
+  height: 100%;
+  margin: 2em auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+div{
+    margin: 0.5em;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.movie-list-head {
+  display: flex;
+  justify-content: space-around;
+}
+.movie-list-head > span {
+  margin: 1em 2em;
+  font-weight: bold;
+}
+.movie{
+    display: flex;
+    justify-content: space-around;
+}
+.movie > span {
+  margin: 0.5em 2em;
+  text-align: end;
+  width: 100%;
+  
+}
